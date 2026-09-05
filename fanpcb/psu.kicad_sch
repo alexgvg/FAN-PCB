@@ -683,6 +683,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -939,13 +1094,13 @@
 		)
 	)
 	(junction
-		(at 76.2 72.39)
+		(at 101.6 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43c27c4-ce91-4e13-a9ae-80532fcb5f52")
 	)
 	(junction
-		(at 76.2 46.99)
+		(at 101.6 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac172959-cf6b-4efe-b9a2-5764ea5126cc")
@@ -962,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 69.85) (xy 76.2 72.39)
+			(xy 101.6 69.85) (xy 101.6 72.39)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 49.53) (xy 76.2 46.99)
+			(xy 101.6 49.53) (xy 101.6 46.99)
 		)
 		(stroke
 			(width 0)
@@ -982,7 +1137,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 72.39) (xy 67.31 72.39)
+			(xy 57.15 62.23) (xy 57.15 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e5b4d1-1c55-4eb5-a40d-6217099f9ce0")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 92.71 72.39)
 		)
 		(stroke
 			(width 0)
@@ -992,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 44.45) (xy 76.2 44.45)
+			(xy 92.71 44.45) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1002,7 +1167,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 67.31) (xy 76.2 67.31)
+			(xy 69.85 52.07) (xy 69.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f06558-9b1f-454c-9044-60eab475155b")
+	)
+	(wire
+		(pts
+			(xy 92.71 67.31) (xy 101.6 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1022,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 46.99) (xy 67.31 46.99)
+			(xy 101.6 46.99) (xy 92.71 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1032,7 +1207,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 44.45) (xy 76.2 46.99)
+			(xy 101.6 44.45) (xy 101.6 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1042,7 +1217,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 41.91) (xy 76.2 41.91)
+			(xy 69.85 62.23) (xy 69.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3de3f8-fca4-47a5-9a34-936875443145")
+	)
+	(wire
+		(pts
+			(xy 92.71 41.91) (xy 101.6 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1052,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 69.85) (xy 76.2 69.85)
+			(xy 92.71 69.85) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1062,13 +1247,101 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 74.93) (xy 76.2 72.39)
+			(xy 57.15 52.07) (xy 57.15 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd450f91-a067-4bf4-94fe-c055ebbc2080")
+	)
+	(wire
+		(pts
+			(xy 101.6 74.93) (xy 101.6 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7480d14-1cd7-40de-ba9f-65dd1344f2ef")
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 69.85 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cdfe531-5b53-4dce-83f1-c41836c22e4a")
+		(property "Reference" "#PWR017"
+			(at 69.85 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 69.85 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 69.85 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68deccac-fd36-4b88-9fec-2ce4206cf264")
+		)
+		(instances
+			(project "fanpcb"
+				(path "/70212b9f-75b5-4ad8-b5df-8c30fcda9509/b82dbcb0-9df4-44c9-ab52-d2b24409e34f"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1229,7 +1502,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 76.2 41.91 0)
+		(at 101.6 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1240,7 +1513,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f48739b-1c9b-4059-8089-a6f3dce2f041")
 		(property "Reference" "#PWR07"
-			(at 76.2 45.72 0)
+			(at 101.6 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1251,7 +1524,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 76.2 36.83 0)
+			(at 101.6 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1261,7 +1534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 41.91 0)
+			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1272,7 +1545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 41.91 0)
+			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1283,7 +1556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 41.91 0)
+			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1307,7 +1580,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 76.2 67.31 0)
+		(at 101.6 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1318,7 +1591,7 @@
 		(fields_autoplaced yes)
 		(uuid "313f64da-06f3-45ca-be19-0cec9547cb5a")
 		(property "Reference" "#PWR09"
-			(at 76.2 71.12 0)
+			(at 101.6 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1329,7 +1602,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 76.2 62.23 0)
+			(at 101.6 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1339,7 +1612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 67.31 0)
+			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1350,7 +1623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 67.31 0)
+			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1361,7 +1634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 67.31 0)
+			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1378,6 +1651,170 @@
 			(project "fanpcb"
 				(path "/70212b9f-75b5-4ad8-b5df-8c30fcda9509/b82dbcb0-9df4-44c9-ab52-d2b24409e34f"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51898028-426c-4607-858c-bc684dd42305")
+		(property "Reference" "C2"
+			(at 73.66 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 73.66 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 70.8152 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7be5db15-1b74-418f-8732-181e3dbbabcc")
+		)
+		(pin "1"
+			(uuid "4fa04189-d5a7-4849-be49-a511713d0cc0")
+		)
+		(instances
+			(project "fanpcb"
+				(path "/70212b9f-75b5-4ad8-b5df-8c30fcda9509/b82dbcb0-9df4-44c9-ab52-d2b24409e34f"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6143ff51-823d-428c-bc38-689c132b59a5")
+		(property "Reference" "C1"
+			(at 60.96 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 60.96 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 58.1152 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ffbeb81-3c5e-41bc-91e8-6eed08307e80")
+		)
+		(pin "1"
+			(uuid "de87c8a7-b693-4cb2-b922-257b618f639b")
+		)
+		(instances
+			(project "fanpcb"
+				(path "/70212b9f-75b5-4ad8-b5df-8c30fcda9509/b82dbcb0-9df4-44c9-ab52-d2b24409e34f"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1464,7 +1901,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 74.93 0)
+		(at 57.15 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1473,9 +1910,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72fd780e-0dea-4508-b238-f7082dae0ded")
-		(property "Reference" "#PWR010"
-			(at 76.2 81.28 0)
+		(uuid "6fa43992-cd21-41b5-8d10-18e16eb27ba1")
+		(property "Reference" "#PWR016"
+			(at 57.15 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1486,7 +1923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 80.01 0)
+			(at 57.15 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1496,7 +1933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 74.93 0)
+			(at 57.15 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1507,7 +1944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 74.93 0)
+			(at 57.15 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1518,7 +1955,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 74.93 0)
+			(at 57.15 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba9b5644-0b5e-4720-a0b8-3608ed9a628c")
+		)
+		(instances
+			(project "fanpcb"
+				(path "/70212b9f-75b5-4ad8-b5df-8c30fcda9509/b82dbcb0-9df4-44c9-ab52-d2b24409e34f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72fd780e-0dea-4508-b238-f7082dae0ded")
+		(property "Reference" "#PWR010"
+			(at 101.6 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1541,8 +2056,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 49.53 0)
+		(lib_id "power:+12V")
+		(at 57.15 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1551,9 +2066,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c3827fd7-a51d-4bdc-be86-a76b622ced0e")
-		(property "Reference" "#PWR08"
-			(at 76.2 55.88 0)
+		(uuid "b212eac0-d4bb-4cc3-a4ce-2e6e1b1bc499")
+		(property "Reference" "#PWR015"
+			(at 57.15 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1563,8 +2078,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 76.2 54.61 0)
+		(property "Value" "+12V"
+			(at 57.15 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1574,7 +2089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 49.53 0)
+			(at 57.15 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1585,7 +2100,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 49.53 0)
+			(at 57.15 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 57.15 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98fb0139-2ea4-49d2-a7c4-ca19b282fd79")
+		)
+		(instances
+			(project "fanpcb"
+				(path "/70212b9f-75b5-4ad8-b5df-8c30fcda9509/b82dbcb0-9df4-44c9-ab52-d2b24409e34f"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3827fd7-a51d-4bdc-be86-a76b622ced0e")
+		(property "Reference" "#PWR08"
+			(at 101.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1596,7 +2189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 49.53 0)
+			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,6 +2206,84 @@
 			(project "fanpcb"
 				(path "/70212b9f-75b5-4ad8-b5df-8c30fcda9509/b82dbcb0-9df4-44c9-ab52-d2b24409e34f"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8837d30-8aea-45ad-b894-04a20d75784d")
+		(property "Reference" "#PWR018"
+			(at 69.85 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e31a2bbe-6378-4fcc-967d-98cf8a0a01b9")
+		)
+		(instances
+			(project "fanpcb"
+				(path "/70212b9f-75b5-4ad8-b5df-8c30fcda9509/b82dbcb0-9df4-44c9-ab52-d2b24409e34f"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1698,7 +2369,7 @@
 	)
 	(symbol
 		(lib_id "DC-005:DC-005")
-		(at 57.15 69.85 0)
+		(at 82.55 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1709,7 +2380,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1c3f68c-c663-4842-a933-a7e512643f38")
 		(property "Reference" "IN2"
-			(at 57.15 59.69 0)
+			(at 82.55 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1719,7 +2390,7 @@
 			)
 		)
 		(property "Value" "DC-005"
-			(at 57.15 62.23 0)
+			(at 82.55 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1729,7 +2400,7 @@
 			)
 		)
 		(property "Footprint" "SnapMagic:NINIGI_DC-005"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,7 +2412,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.snapeda.com/parts/DC-005/Best%20Inc./view-part/?ref=search&t=DC-005&ab_test_case=b"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +2423,7 @@
 			)
 		)
 		(property "Description" "6.4x14.2x9.0mm Power DC Receptacle"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,7 +2435,7 @@
 			)
 		)
 		(property "MF" "Best Inc."
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1776,7 +2447,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,7 +2459,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1800,7 +2471,7 @@
 			)
 		)
 		(property "Package" "DC Power Jack Best Inc."
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +2483,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DC-005/Best+Inc./view-part/?ref=eda"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1824,7 +2495,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1836,7 +2507,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DC-005/Best+Inc./view-part/?ref=snap"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1848,7 +2519,7 @@
 			)
 		)
 		(property "MP" "DC-005"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1860,7 +2531,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1872,7 +2543,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 57.15 69.85 0)
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,7 +2574,7 @@
 	)
 	(symbol
 		(lib_id "DC-005:DC-005")
-		(at 57.15 44.45 0)
+		(at 82.55 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1914,7 +2585,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9267f24-4884-4ed8-a1e3-e64a3a817c9e")
 		(property "Reference" "IN1"
-			(at 57.15 34.29 0)
+			(at 82.55 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1924,7 +2595,7 @@
 			)
 		)
 		(property "Value" "DC-005"
-			(at 57.15 36.83 0)
+			(at 82.55 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1934,7 +2605,7 @@
 			)
 		)
 		(property "Footprint" "SnapMagic:NINIGI_DC-005"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,7 +2617,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.snapeda.com/parts/DC-005/Best%20Inc./view-part/?ref=search&t=DC-005&ab_test_case=b"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1957,7 +2628,7 @@
 			)
 		)
 		(property "Description" "6.4x14.2x9.0mm Power DC Receptacle"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1969,7 +2640,7 @@
 			)
 		)
 		(property "MF" "Best Inc."
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +2652,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1993,7 +2664,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +2676,7 @@
 			)
 		)
 		(property "Package" "DC Power Jack Best Inc."
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2017,7 +2688,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DC-005/Best+Inc./view-part/?ref=eda"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2029,7 +2700,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2041,7 +2712,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DC-005/Best+Inc./view-part/?ref=snap"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2053,7 +2724,7 @@
 			)
 		)
 		(property "MP" "DC-005"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2736,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2077,7 +2748,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 57.15 44.45 0)
+			(at 82.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
