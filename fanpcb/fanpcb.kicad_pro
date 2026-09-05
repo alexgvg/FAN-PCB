@@ -187,7 +187,30 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+          0.20,
+          0.25,
+          0.30,
+          0.35,
+          0.40,
+          0.50,
+          0.60,
+          0.70,
+          0.80,
+          1.00,
+          1.20,
+          1.50,
+          1.75,
+          2.00,
+          2.50,
+          3.00,
+          3.50,
+          4.00,
+          5.00,
+          6.00,
+          8.00,
+          10.00
+        ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
