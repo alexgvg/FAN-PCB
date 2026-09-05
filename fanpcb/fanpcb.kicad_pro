@@ -712,7 +712,7 @@
         "uuid": "70212b9f-75b5-4ad8-b5df-8c30fcda9509"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR13-14,H1-2",
     "variants": []
   },
   "sheets": [
@@ -735,6 +735,10 @@
     [
       "b82dbcb0-9df4-44c9-ab52-d2b24409e34f",
       "PSU"
+    ],
+    [
+      "ad407913-9849-4630-a4ac-2d36aff9bf5e",
+      "MountingHoles"
     ]
   ],
   "text_variables": {},

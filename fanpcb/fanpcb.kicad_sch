@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 254 139.7)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ad407913-9849-4630-a4ac-2d36aff9bf5e")
+		(property "Sheetname" "MountingHoles"
+			(at 254 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mountingholes.kicad_sch"
+			(at 254 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fanpcb"
+				(path "/70212b9f-75b5-4ad8-b5df-8c30fcda9509"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 50.8 38.1)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
