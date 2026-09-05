@@ -188,29 +188,29 @@
         }
       ],
       "track_widths": [
-          0.20,
-          0.25,
-          0.30,
-          0.35,
-          0.40,
-          0.50,
-          0.60,
-          0.70,
-          0.80,
-          1.00,
-          1.20,
-          1.50,
-          1.75,
-          2.00,
-          2.50,
-          3.00,
-          3.50,
-          4.00,
-          5.00,
-          6.00,
-          8.00,
-          10.00
-        ],
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        1.0,
+        1.2,
+        1.5,
+        1.75,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        5.0,
+        6.0,
+        8.0,
+        10.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -655,13 +655,29 @@
         "uuid": "70212b9f-75b5-4ad8-b5df-8c30fcda9509"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TGND1,IN2,T2,J1,Tacho_2-4,M2-3,#PWR3-12,T12V1,PWM2-3,TP1-4,JP1-4",
     "variants": []
   },
   "sheets": [
     [
       "70212b9f-75b5-4ad8-b5df-8c30fcda9509",
       "Root"
+    ],
+    [
+      "1d888e7c-7ec3-4497-b0e5-6c2c6b1cf7a5",
+      "FAN"
+    ],
+    [
+      "ee43478f-3ee2-4507-9223-4c3d77adcbdd",
+      "FAN1"
+    ],
+    [
+      "bc2072ed-be82-4f25-bee7-161dcee70ea1",
+      "FAN2"
+    ],
+    [
+      "b82dbcb0-9df4-44c9-ab52-d2b24409e34f",
+      "PSU"
     ]
   ],
   "text_variables": {},
